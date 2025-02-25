@@ -172,7 +172,7 @@ body{
 .advertise{
     height:40rem;
     width:100%;
-    background-image: url("/Images/Projects.png");
+    background-image: url("Images/Projects.png");
     background-size: cover;
 }
 .add{
