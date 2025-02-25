@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-SAHARA</title>
+    <link rel="icon" href="Images/Icon.png">
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <form action="/action">
-        <div class="logo">
+        <div class="content">
+        <!-- <div class="logo">
             <img src="Images/logo.png" class="image">
-        </div>
+        </div> -->
         <div class="box">
-            <h1>Login</h1>
+            <h1>Login - SAHARA</h1>
             <div class="input">
                 <input type="text" class ="username" placeholder="E-mail">
                 <input type="password" class = "password" placeholder="password"><br>
-                <div class="show">
-                    <input type="checkbox" id = 'show'>
-                    <label for="show">Show Password</label>
-                </div>
             </div>
-            <button type="submit" class="sign-in">Sign In</button>
+            <div class="show">
+                <input type="checkbox" id = 'show'>
+                <label for="show">Show Password</label>
+            </div>
+            <div class="bottom">
+                <button type="submit" class="sign-in">Sign In</button>
             <div class="forgot">
-                <a href="#" id ="forgot">Forgot Password ?</a>
-                <a href="#" id = "sign-up">Sign Up</a>
+                <a href="#" id ="forgot" class ="anchor">Forgot Password ?</a>
+                <a href="#" id = "sign-up" class ="anchor">Sign Up</a>
             </div>
+            </div>
+        </div>
         </div>
     </form>
 </body>
