@@ -1,99 +1,93 @@
-body {
+/* edited */
+body{
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: url("Images/x.png");
-    ;
 }
 
-.box {
-    width: 25rem;
-    height: 25rem;
-    border: 1px solid black;
+.content{
+    height: 40rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 1px 1px 6px black;
-    margin-top: -6rem;
-    
+    justify-content: center;
 }
 h1{
-    margin-left: -13rem;
+    padding-left: 2rem;
 }
-.input {
-    width: 46vh;
+.box{
+    height: 25rem;
+    width: 23rem;
+    background-color: #c9d8d8;
+    border-radius: 0.8rem;
+    box-shadow: 1px 1px 5px black;
+}
+.input{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .username{
-    height: 1.5rem;
-    width: 100%;
-    max-width: 18rem;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 0.5rem;
-    margin-top: 2.2rem;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 0.4rem;
+    background-color: azure;
     outline: none;
-    background-color: #e2f2f3;
+    border: 0.3px solid black;
+    border-radius: 0.4rem;
+    font-size: medium;
+    margin-top: 2.3rem;
+
+
 }
 .password{
-    height: 1.5rem;
-    width: 100%;
-    max-width: 18rem;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 0.4rem;
+    background-color: azure;
     outline: none;
-    background-color: #e2f2f3;
+    border: 0.3px solid black;
+    border-radius: 0.4rem;
+    font-size: medium;
+    margin-top: 1.6rem;
 }
-
-.show {
-    margin-top: -1rem;
-    margin-bottom: 0;
-    align-self: flex-start;
+.show{
+    display:flex;
+    justify-content: left;
+    padding-left: 2rem;
 }
-
-.sign-in {
-    height: 3rem;
-    width: 100%;
-    max-width: 18rem;
-    margin-top: 2rem;
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-in{
+    margin-top: 3rem;
+    height: 2.5rem;
+    width: 20rem;
     background-color: #002F31;
     color: white;
+    border-radius: 0.7rem;
     cursor: pointer;
-    border-radius: 0.3rem;
 }
 .sign-in:hover{
-    background-color: #045457;
+    background-color: #2c6163;
+    border: none;
+    width: 20.15rem;
 }
 .forgot{
-    display: flex;
-    text-align: center;
-    padding: 0.5rem;
-
+    margin-top: 0.7rem;
+    padding-left: 2rem;
 }
-.forgot #forgot{
+.anchor{
     text-decoration: none;
-    margin-right: 5rem;
-    color: black;
-}
-.forgot #sign-up{
-    text-decoration: none;
-    margin-right: 1rem;
     color: black;
 }
 
-.logo{
+
+
+
+
+/* .logo{
     height:100%;
     width:8rem;
     position: relative;
@@ -105,5 +99,5 @@ h1{
     width: 128px;
     height: 100%;
     object-fit: cover;
-}
+} */
 
